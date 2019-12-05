@@ -1,7 +1,7 @@
 const { mkdirp, writeJSON, readJSON, readDirectoryJSON, updateJSON, deleteJSON } = require('../lib/fs-functions');
 const fs = require('fs').promises;
 
-describe('writeJSON function', () => {
+describe('fs functions', () => {
 
     beforeAll(() => {
         return mkdirp('./folder');
@@ -42,7 +42,3 @@ describe('writeJSON function', () => {
         return fs.rmdir('./folder', { recursive: true });
     });
 });
-
-
-
- 

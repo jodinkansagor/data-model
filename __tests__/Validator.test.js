@@ -11,7 +11,7 @@ describe('Validator', () => {
             });
         });
 
-        it('returns the field', () => {
+        it.skip('returns the field', () => {
             const dog = {
                 name: 'spot',
                 age: 5,
@@ -21,7 +21,7 @@ describe('Validator', () => {
             expect(validator.validate(dog)).toEqual(5);
         });
 
-        it('returns the field cast to type', () => {
+        it.skip('returns the field cast to type', () => {
             const dog = {
                 name: 'spot',
                 age: '5',
@@ -31,7 +31,7 @@ describe('Validator', () => {
             expect(validator.validate(dog)).toEqual(5);
         });
 
-        it('returns the field', () => {
+        it.skip('returns the field', () => {
             const dog = {
                 name: 'spot',
                 weight: '20 lbs'
@@ -48,7 +48,7 @@ describe('Validator', () => {
             });
         });
 
-        it('returns the field', () => {
+        it.skip('returns the field', () => {
             const dog = {
                 name: 'spot',
                 age: 5,
@@ -58,7 +58,7 @@ describe('Validator', () => {
             expect(validator.validate(dog)).toEqual(5);
         });
 
-        it('returns the field cast to type', () => {
+        it.skip('returns the field cast to type', () => {
             const dog = {
                 name: 'spot',
                 age: '5',
@@ -68,7 +68,7 @@ describe('Validator', () => {
             expect(validator.validate(dog)).toEqual(5);
         });
 
-        it('returns the field', () => {
+        it.skip('returns the field', () => {
             const dog = {
                 name: 'spot',
                 weight: '20 lbs'
