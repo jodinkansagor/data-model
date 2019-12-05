@@ -1,3 +1,5 @@
-const { mkdirp } = require('./lib/fs-functions');
+const { mkdirp, writeJSON, readJSON } = require('./lib/fs-functions');
 
 mkdirp('jodi/jbj/folder');
+
+
