@@ -35,9 +35,7 @@ describe('writeJSON function', () => {
 
     it('can delete a file', () => {
         return deleteJSON('./folder/jbj.txt')
-            .then(result => {
-                expect(result).toBeNull;
-            });
+            .then(result => expect(result).toBeNull);
     });
 
     afterAll(() => {
